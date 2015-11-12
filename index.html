@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <title>Thinkpad battery monitor</title>
+    <!-- build:css assets/css/app.css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css" />
+  <!-- endbuild -->
+  </head>
+  <body>
+    <!--<div ng-controller="toolbarCtrl">
+      <button ng-click="closeW()" style="-webkit-app-region: no-drag" class="md-icon-button" aria-label="Cerrar">
+                XXX
+      </button>-->
+    </div>
+
+
+        <ng-view></ng-view>
+    <!-- build:js scripts/vendor.js -->
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-route/angular-route.js"></script>
+    <script src="./bower_components/angular-animate/angular-animate.js"></script>
+    <script src="./bower_components/angular-aria/angular-aria.js"></script>
+    <script src="./bower_components/angular-material/angular-material.js"></script>
+    <script src="./bower_components/ng-electron/ng-electron.js"></script>
+    <script src="./bower_components/ng-electron/ng-bridge.js"></script>
+    <!-- endbuild -->
+    <!-- build:app scripts/app.js -->
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/files.js"></script>
+    <script src="./scripts/toolbar.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
