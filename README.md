@@ -8,7 +8,11 @@ A litte test of electron with something usefull ;)
 
 ```bash
 $ sudo pacman -S tp_smapi
+```
 
+reboot your Computer
+
+```bash
 $ npm install && bower install && npm start
 
 
