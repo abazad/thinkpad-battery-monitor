@@ -10,7 +10,11 @@ A litte test of electron with something usefull ;)
 $ sudo pacman -S tp_smapi
 ```
 
-reboot your Computer
+reboot your Computer or
+
+```bash
+sudo modprobe tp_smapi
+```
 
 ```bash
 $ npm install && bower install && npm start

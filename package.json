@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "angular": "^1.4.7",
+    "bootstrap": "^3.3.5",
     "diskdb": "^0.1.14",
     "fs": "0.0.2",
     "fs-plus": "^2.8.1"
